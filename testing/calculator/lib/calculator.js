@@ -12,7 +12,7 @@ var multiply = function (n1, n2) {
 
 var divide = function (n1, n2) {
   if (n2 === 0) {
-    throw new Error("Divied by zero attempt!");
+    throw new Error("Attempt to divide by zero");
   }
   else
     return n1 / n2;
