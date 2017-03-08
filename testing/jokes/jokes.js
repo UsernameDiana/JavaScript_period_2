@@ -11,6 +11,6 @@ function getJoke(callback) {
 };
 module.exports = {
   getJoke: getJoke
-} 
+}
 
-getJoke((err,data)=> console.log(data));
+getJoke((err, data) => console.log(data));
