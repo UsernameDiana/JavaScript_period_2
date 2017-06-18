@@ -1,6 +1,6 @@
 var expect = require("chai").expect;
 var jokes = require("../jokes/jokes.js");
-var nock = require("nock");
+var nock = require("nock"); // library to test http modules
 var testJoke = { "id": 1234, "joke": "ha ha ha", "reference": "unknown" }; // testing this joke
 
 var n = nock('http://jokes-plaul.rhcloud.com');

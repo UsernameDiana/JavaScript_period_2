@@ -1,5 +1,5 @@
 //var expect = require("chai").expect;
-const {expect} = require("chai"); // using ES6 destructuring object
+const {expect} = require("chai");
 
 describe("Testing async behaviour", function () {
     var foo = false;
@@ -10,7 +10,7 @@ describe("Testing async behaviour", function () {
         }, 1000);
     });
 
-    it("should pass (with done called)", function () {
+    it("should pass (with done called)", function () { // handles asyncronus code
         expect(foo).to.equal(true);
     });
 });   
